@@ -3,7 +3,7 @@
 // See http://www.foundweekends.org/giter8/testing.html#Using+the+Giter8Plugin for more details.
 lazy val root = (project in file(".")).
   settings(
-    name := "scala-spark",
+    name := "ScalaSparkG8Template",
     test in Test := {
       val _ = (g8Test in Test).toTask("").value
     },
